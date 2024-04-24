@@ -1,0 +1,49 @@
+.payment-container {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-around;
+ 
+}
+
+.payment-box {
+  background-color: pink;
+  animation: color-change 0.8s infinite alternate;
+  width: 30%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 1rem;
+  /* background-color: #fff; */
+}
+
+.payment-box h2 {
+  margin-top: 0;
+}
+
+.payment-box ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.payment-box ul li {
+  margin-bottom: 10px;
+}
+
+.pay-now-btn {
+  display: block;
+  width: 50%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@keyframes color-change {
+  from { background-color: pink; }
+  to { background-color: #ff99cc; }
+}
