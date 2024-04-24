@@ -7,7 +7,7 @@
     <link rel="icon" type="" href="./public/favicon.ico">
     <link rel="stylesheet" href="./src/css/style.css">
     <link rel="stylesheet" href="./src/css/designer.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./src/assets/icons/all.min.css">
     
 </head>
 <body>
@@ -105,8 +105,8 @@
     <div class="footer-container">
         <nav>
             <ul>
-                <li class="item"><a href="">Services List</a></li>
-                <li>
+                <li class="item"><a onclick="event.preventDefault()" href="">Services List</a></li>
+                <li class="dropdown-item">
                     <ul>
                         <li class="sub-item"><a href="">Make Up</a></li>
                         <li class="sub-item"><a href="">Learning</a></li>
@@ -123,9 +123,11 @@
             <i class="fa-brands fa-instagram  face"></i>
         </div>
     </div>
+    <div class="footer">
     <p>&copy; Copyright 2024 Muhinde Dosta. All rights reserved.</p>
 </div>
 </footer>
+<script src="./src/assets/icons/all.min.js"></script>  
 <script src="./src/js/script.js"></script>
 </body>
 </html>

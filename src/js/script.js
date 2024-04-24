@@ -3,6 +3,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const hamburger = document.getElementById('hamburger');
     const icon = document.querySelector('#hamburger i');
     const menu = document.querySelector('.menu');
+    const item = document.querySelector('.item');
+
+    item.addEventListener('on', () => {
+      document.querySelector('.footer-container nav ul li.dropdown-item').style.display = 'block';
+    })
 
     hamburger.addEventListener('click', () => {
         isOpen = !isOpen;
